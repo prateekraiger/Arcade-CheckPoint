@@ -1,4 +1,4 @@
-# Arcade Checkpoints
+# Arcade Checkpoints View
 
 A Chrome extension that automatically hides the leaderboard on Google Arcade Lab pages and shows your points in a sidebar for a cleaner, distraction-free gaming experience.
 
