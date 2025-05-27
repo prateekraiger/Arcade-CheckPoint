@@ -1,0 +1,75 @@
+# Arcade Checkpoints
+
+A Chrome extension that automatically hides the leaderboard on Google Arcade Lab pages for a better gaming experience.
+
+## Features
+
+- Automatically hides the leaderboard on Google Arcade Lab pages
+- Shows game content in full screen
+- Works instantly when you visit an Arcade Lab page
+- No configuration needed - just install and enjoy!
+
+## Installation
+
+### From Chrome Web Store
+
+1. Visit the [Chrome Web Store](https://chrome.google.com/webstore) (link will be added after publication)
+2. Click "Add to Chrome"
+3. Confirm the installation
+
+### Manual Installation (Developer Mode)
+
+1. Download or clone this repository
+2. Open Chrome and go to `chrome://extensions/`
+3. Enable "Developer mode" in the top right
+4. Click "Load unpacked" and select the extension directory
+
+## Usage
+
+1. Install the extension
+2. Visit any Google Arcade Lab page
+3. The leaderboard will be automatically hidden
+4. Enjoy your game in full screen!
+
+## Development
+
+### Project Structure
+
+```
+arcade-checkpoints/
+├── manifest.json    # Extension configuration
+├── content.js      # Main functionality
+├── popup.html      # Extension popup
+└── README.md       # This file
+```
+
+### Building from Source
+
+1. Clone the repository
+2. Make your changes
+3. Test locally using Chrome's developer mode
+4. Submit to Chrome Web Store
+
+## Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+## Support
+
+If you encounter any issues or have suggestions, please:
+
+1. Open an issue on GitHub
+2. Contact us through the Chrome Web Store
+
+## Privacy
+
+This extension:
+
+- Does not collect any user data
+- Does not track your activity
+- Does not require any permissions beyond what's needed to function
+- Works entirely locally in your browser
