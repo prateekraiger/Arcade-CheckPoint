@@ -5,10 +5,13 @@ A Chrome extension that automatically hides the leaderboard on Google Arcade Lab
 ## Features
 
 - Hides the leaderboard on Google Arcade Lab pages
-- Shows your points in a sidebar for easy tracking
-- Lets you focus on the game content in full screen
+- Shows your points in a sidebar for easy tracking and motivation
 - Works instantly when you visit an Arcade Lab page
 - No configuration needed – just install and enjoy!
+
+## How It Works
+
+When you visit a Google Arcade Lab game page, the extension automatically hides the leaderboard (which can be distracting) and displays your current points in a sidebar. This helps you stay focused on your progress without unnecessary clutter.
 
 ## Installation
 
@@ -30,7 +33,8 @@ A Chrome extension that automatically hides the leaderboard on Google Arcade Lab
 1. Install the extension
 2. Visit any Google Arcade Lab page
 3. The leaderboard will be automatically hidden
-4. Enjoy your game in full screen!
+4. Your points will be shown in a sidebar
+5. Enjoy your game in full screen!
 
 ## Development
 
