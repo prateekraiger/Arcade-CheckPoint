@@ -1,4 +1,4 @@
-# Arcade Checkpoints
+# Arcade Checkpoints View
 
 A Chrome extension that automatically hides the leaderboard on Google Arcade Lab pages and shows your points in a sidebar for a cleaner, distraction-free gaming experience.
 
@@ -15,18 +15,26 @@ When you visit a Google Arcade Lab game page, the extension automatically hides 
 
 ## Installation
 
-### From Chrome Web Store
-
-1. Visit the [Chrome Web Store](https://chrome.google.com/webstore) (link will be added after publication)
-2. Click "Add to Chrome"
-3. Confirm the installation
-
 ### Manual Installation (Developer Mode)
 
-1. Download or clone this repository
-2. Open Chrome and go to `chrome://extensions/`
-3. Enable "Developer mode" in the top right
-4. Click "Load unpacked" and select the extension directory
+You can install the extension for free in your browser without uploading it to the Chrome Web Store. Follow these steps:
+
+1. **Download or Clone the Repository**
+   - Click the green "Code" button on GitHub and select "Download ZIP" or use `git clone` to get the files on your computer.
+   - Extract the ZIP file if needed.
+2. **Open Chrome Extensions Page**
+   - Open Google Chrome.
+   - Go to `chrome://extensions/` in the address bar.
+3. **Enable Developer Mode**
+   - In the top right corner, turn on the toggle for "Developer mode".
+4. **Load the Unpacked Extension**
+   - Click the "Load unpacked" button.
+   - In the file dialog, select the folder where you downloaded/extracted the extension files (the folder containing `manifest.json`).
+5. **Verify Installation**
+   - The extension should now appear in your list and its icon should show up in the Chrome toolbar.
+   - If you make changes to the code, click the refresh button on the extension card to reload it.
+
+**Note:** You do NOT need to pay or upload to the Chrome Web Store to use the extension for yourself. Manual installation is free and works on your browser.
 
 ## Usage
 
@@ -47,13 +55,6 @@ arcade-checkpoints/
 ├── popup.html      # Extension popup
 └── README.md       # This file
 ```
-
-### Building from Source
-
-1. Clone the repository
-2. Make your changes
-3. Test locally using Chrome's developer mode
-4. Submit to Chrome Web Store
 
 ## Contributing
 
